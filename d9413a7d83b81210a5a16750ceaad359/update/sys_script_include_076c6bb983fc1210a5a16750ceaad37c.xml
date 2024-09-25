@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1530270_docdok.LocationFetcher</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>LocationFetcher</name>
+        <script><![CDATA[var LocationFetcherFetcher = Class.create();
+LocationFetcherFetcher.prototype = {
+    initialize: function() {},
+
+    fetchCityFromLocationFetcher: function(locationId) {
+        var result = '';
+        if (!locationId) {
+            return result;
+        }
+
+        // Query cmn_location table based on the input location (Street)
+        var locationGR = new GlideRecord('cmn_location');
+        if (locationGR.get(locationId)) {
+            var locationName = locationGR.getValue('name');
+            
+            // Query the cmn_location table for city using the location name
+            var cityGR = new GlideRecord('cmn_location');
+            cityGR.addQuery('name', locationName);
+            cityGR.query();
+
+            var cities = [];
+            while (cityGR.next()) {
+                cities.push(cityGR.getValue('city'));
+            }
+
+            // If there are multiple cities, update city field with the first one
+            if (cities.length > 0) {
+                result = cities[0];  // Pick the first one or apply additional logic to select the right city
+            }
+        }
+
+        return result;
+    },
+
+    type: 'LocationFetcherFetcher'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>T002</sys_created_by>
+        <sys_created_on>2024-09-23 11:10:45</sys_created_on>
+        <sys_id>076c6bb983fc1210a5a16750ceaad37c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>LocationFetcher</sys_name>
+        <sys_package display_value="DocDok" source="x_1530270_docdok">d9413a7d83b81210a5a16750ceaad359</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</sys_scope>
+        <sys_update_name>sys_script_include_076c6bb983fc1210a5a16750ceaad37c</sys_update_name>
+        <sys_updated_by>T002</sys_updated_by>
+        <sys_updated_on>2024-09-23 11:26:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

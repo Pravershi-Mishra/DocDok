@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="clinic" label="Clinic" language="en" table="x_1530270_docdok_patient">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>clinic</element>
+            <help/>
+            <hint/>
+            <label>Clinic</label>
+            <language>en</language>
+            <name>x_1530270_docdok_patient</name>
+            <plural>Clinics</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>T002</sys_created_by>
+            <sys_created_on>2024-09-25 09:17:07</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Clinic</sys_name>
+            <sys_package display_value="DocDok" source="x_1530270_docdok">d9413a7d83b81210a5a16750ceaad359</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</sys_scope>
+            <sys_update_name>sys_documentation_x_1530270_docdok_patient_clinic_en</sys_update_name>
+            <sys_updated_by>T002</sys_updated_by>
+            <sys_updated_on>2024-09-25 09:17:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

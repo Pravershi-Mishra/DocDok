@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 07:14:12</sys_created_on>
+        <sys_id>120a89a283301610a5a16750ceaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1530270_docdok_patient.x_1530270_docdok.patient_user</sys_name>
+        <sys_package display_value="DocDok" source="x_1530270_docdok">d9413a7d83b81210a5a16750ceaad359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</sys_scope>
+        <sys_security_acl display_value="x_1530270_docdok_patient">9e0a89a283301610a5a16750ceaad3ee</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_120a89a283301610a5a16750ceaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 07:14:12</sys_updated_on>
+        <sys_user_role display_value="x_1530270_docdok.patient_user" name="x_1530270_docdok.patient_user">820a496283301610a5a16750ceaad33c</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</application>
+        <file_path/>
+        <instance_id>1683f29c1b9ef518168f4089bd4bcbd8</instance_id>
+        <instance_name>dev199193</instance_name>
+        <name>sys_security_acl_role_120a89a283301610a5a16750ceaad3f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-25 07:14:12</sys_created_on><sys_id>120a89a283301610a5a16750ceaad3f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1530270_docdok_patient.x_1530270_docdok.patient_user</sys_name><sys_package display_value="DocDok" source="x_1530270_docdok">d9413a7d83b81210a5a16750ceaad359</sys_package><sys_policy/><sys_scope display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</sys_scope><sys_security_acl display_value="x_1530270_docdok_patient">9e0a89a283301610a5a16750ceaad3ee</sys_security_acl><sys_update_name>sys_security_acl_role_120a89a283301610a5a16750ceaad3f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-25 07:14:12</sys_updated_on><sys_user_role display_value="x_1530270_docdok.patient_user" name="x_1530270_docdok.patient_user">820a496283301610a5a16750ceaad33c</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>405806448</payload_hash>
+        <record_name>x_1530270_docdok_patient.x_1530270_docdok.patient_user</record_name>
+        <reverted_from/>
+        <source>388d93b583bc1210a5a16750ceaad36d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 07:14:12</sys_created_on>
+        <sys_id>1e0a89a283301610a5a16750ceaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922807ccab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 07:14:12</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>120a89a2ee3016105562e5cc147f3ef4</update_guid>
+        <update_guid_history>120a89a2ee3016105562e5cc147f3ef4:405806448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1530270_docdok_patient.x_1530270_docdok.patient_user">ec15e12a83b01610a5a16750ceaad3a4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 09:12:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>5613e4e43ef44fceaa5cbdbfd54525a1</sys_id>
+        <sys_metadata>120a89a283301610a5a16750ceaad3f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1530270_docdok_patient.x_1530270_docdok.patient_user</sys_name>
+        <sys_package display_value="DocDok" source="x_1530270_docdok">d9413a7d83b81210a5a16750ceaad359</sys_package>
+        <sys_parent display_value="">9e0a89a283301610a5a16750ceaad3ee</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</sys_scope>
+        <sys_scope_delete display_value="">040275f4602e44f5b56abb64121d66e1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_120a89a283301610a5a16750ceaad3f2</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_120a89a283301610a5a16750ceaad3f2">1e0a89a283301610a5a16750ceaad3f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 09:12:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

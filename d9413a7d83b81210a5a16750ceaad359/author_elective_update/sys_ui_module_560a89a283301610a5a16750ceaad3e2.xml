@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Docdok">58c7488e83705210a5a16750ceaad3a2</application>
+        <filter/>
+        <name>Patients</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1530270_docdok.patient_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 07:14:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>560a89a283301610a5a16750ceaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patients</sys_name>
+        <sys_package display_value="DocDok" source="x_1530270_docdok">d9413a7d83b81210a5a16750ceaad359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</sys_scope>
+        <sys_update_name>sys_ui_module_560a89a283301610a5a16750ceaad3e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 07:14:12</sys_updated_on>
+        <table>x_1530270_docdok_patient</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</application>
+        <file_path/>
+        <instance_id>1683f29c1b9ef518168f4089bd4bcbd8</instance_id>
+        <instance_name>dev199193</instance_name>
+        <name>sys_ui_module_560a89a283301610a5a16750ceaad3e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Docdok">58c7488e83705210a5a16750ceaad3a2</application><filter/><name>Patients</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1530270_docdok.patient_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-25 07:14:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>560a89a283301610a5a16750ceaad3e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Patients</sys_name><sys_package display_value="DocDok" source="x_1530270_docdok">d9413a7d83b81210a5a16750ceaad359</sys_package><sys_policy/><sys_scope display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</sys_scope><sys_update_name>sys_ui_module_560a89a283301610a5a16750ceaad3e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-25 07:14:12</sys_updated_on><table>x_1530270_docdok_patient</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1592274487</payload_hash>
+        <record_name>Patients</record_name>
+        <reverted_from/>
+        <source>388d93b583bc1210a5a16750ceaad36d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 07:14:12</sys_created_on>
+        <sys_id>da0a89a283301610a5a16750ceaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922807cbd90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 07:14:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>9e0a89a2af3016103899b646a15153e4</update_guid>
+        <update_guid_history>9e0a89a2af3016103899b646a15153e4:1592274487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 09:12:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>8f4e5e6070b14d6d94c0db1108065ce9</sys_id>
+        <sys_metadata>560a89a283301610a5a16750ceaad3e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patients</sys_name>
+        <sys_package display_value="DocDok" source="x_1530270_docdok">d9413a7d83b81210a5a16750ceaad359</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</sys_scope>
+        <sys_scope_delete display_value="">040275f4602e44f5b56abb64121d66e1</sys_scope_delete>
+        <sys_update_name>sys_ui_module_560a89a283301610a5a16750ceaad3e2</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_560a89a283301610a5a16750ceaad3e2">da0a89a283301610a5a16750ceaad3e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 09:12:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_service_channel">
+    <awa_service_channel action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <advanced_condition>true</advanced_condition>
+        <assign_to_field>assigned_to</assign_to_field>
+        <assignment_group_field>assignment_group</assignment_group_field>
+        <condition table="interaction">type=chat^EQ<item display_value="Chat" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="chat"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <default_capacity>4</default_capacity>
+        <default_size>1</default_size>
+        <description>Live Agent Chat</description>
+        <enable_logging>false</enable_logging>
+        <inbox_alert_audio display_value="connect_alert.mp3">a0b698b09f201200d5f9b3e2957fcf88</inbox_alert_audio>
+        <log_level>none</log_level>
+        <message_alert_audio display_value="sn_va_web_client_alert.mp3">12f0814a73000010e985658b4cf6a726</message_alert_audio>
+        <name>Chat</name>
+        <order>100</order>
+        <stop_logging_at/>
+        <stop_logging_schedule/>
+        <sys_class_name>awa_service_channel</sys_class_name>
+        <sys_created_by>T002</sys_created_by>
+        <sys_created_on>2024-09-24 11:14:24</sys_created_on>
+        <sys_id>57e6305283b89210a5a16750ceaad35c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Chat</sys_name>
+        <sys_package display_value="DocDok" source="x_1530270_docdok">d9413a7d83b81210a5a16750ceaad359</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DocDok">d9413a7d83b81210a5a16750ceaad359</sys_scope>
+        <sys_update_name>awa_service_channel_57e6305283b89210a5a16750ceaad35c</sys_update_name>
+        <sys_updated_by>T002</sys_updated_by>
+        <sys_updated_on>2024-09-24 11:44:53</sys_updated_on>
+        <type>chat</type>
+        <utilization_condition table="interaction">stateNOT INclosed_complete,closed_abandoned^EQ<item display_value="closed_complete,closed_abandoned" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="closed_complete,closed_abandoned"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </utilization_condition>
+        <workitem_table>interaction</workitem_table>
+    </awa_service_channel>
+</record_update>

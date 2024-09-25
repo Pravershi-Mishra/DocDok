@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="860e1fb583bc1210a5a16750ceaad3fc" max_length="40" name="x_1530270_docdok_clinic" type="collection">
+        <element dependent="u_street" dependent_on_field="u_street" label="City" max_length="32" name="city" type="string" use_dependent_field="true"/>
+        <index name="index">
+            <element name="city"/>
+        </index>
+    </element>
+</database>

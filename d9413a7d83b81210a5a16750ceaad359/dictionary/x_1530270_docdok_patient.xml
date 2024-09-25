@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7715a5e683b01610a5a16750ceaad395" extends="sys_user" label="Patient" max_length="40" name="x_1530270_docdok_patient" type="collection">
+        <element label="Life Long ID" max_length="40" name="life_long_id" type="string"/>
+        <element label="Origin" max_length="40" name="origin" type="string"/>
+        <element label="Insurance ID" max_length="40" name="insurance_id" type="string"/>
+        <element label="Clinic" mandatory="true" max_length="40" name="clinic" reference="x_1530270_docdok_clinic" type="reference"/>
+        <element label="Type" max_length="40" name="type" type="string"/>
+        <element label="Birthdate" mandatory="true" max_length="40" name="birthdate" type="glide_date"/>
+    </element>
+</database>
